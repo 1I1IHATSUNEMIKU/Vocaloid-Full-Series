@@ -80,3 +80,22 @@ nav a:hover{
     cursor:pointer;
     font-size:18px;
 }
+
+.hero{
+    min-height:650px;
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    padding:80px 8%;
+}
+
+.hero-background{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(90deg,var(--background) 20%,rgba(8,8,13,0.75) 55%,rgba(8,8,13,0.25)),url("Imagens/capa.png");
+    background-size:cover;
+    background-position:center;
+    opacity:0.35;
+    z-index:-1;
+}
