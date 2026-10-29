@@ -133,3 +133,44 @@ nav a:hover{
     line-height:1.8;
     margin-bottom:30px;
 }
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.btn{
+    padding:15px 25px;
+    border:none;
+    font-family:inherit;
+    font-weight:bold;
+    font-size:11px;
+    cursor:pointer;
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    transition:0.3s;
+}
+
+.primary{
+    background-color:var(--pink);
+    color:white;
+    box-shadow:0 0 25px rgba(255, 45, 117, 0.4);
+}
+
+.primary:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 40px rgba(255, 45, 117, 0.7);
+}
+
+.secondary{
+    border:1px solid var(--border);
+    background:rgba(255, 255, 255, 0.05);
+    color:white;
+}
+
+.secondary:hover{
+    background:white;
+    color:black;
+}
