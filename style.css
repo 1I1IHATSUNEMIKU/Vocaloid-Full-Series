@@ -208,3 +208,34 @@ nav a:hover{
     opacity:0.25;
     z-index:-1;
 }
+
+.highlights{
+    display:flex;
+    justify-content:center;
+    gap: 100px;
+    padding: 35px;
+    background: var(--background-secondary);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.highlight{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.highlight .icon{
+    font-size: 28px;
+}
+
+.highlight strong{
+    display: block;
+    font-size: 20px;
+}
+
+.highlight small{
+    color: var(--text-secondary);
+    font-size: 9px;
+    letter-spacing: 2px;
+}
